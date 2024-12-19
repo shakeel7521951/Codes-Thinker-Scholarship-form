@@ -58,10 +58,10 @@ function Form() {
     // Send email using EmailJS
     emailjs
       .sendForm(
-        "service_0zf6h6k", // Service ID
-        "template_dro5c9a", // Template ID
+        "service_htrxpy6", // Service ID
+        "template_29wfctn", // Template ID
         form.current,
-        "ChgvaorJMcQ1FkyD6" // Public Key
+        "OhSGn2U74aZyL_ONx" // Public Key
       )
       .then(
         () => {
